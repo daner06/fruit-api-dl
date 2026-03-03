@@ -9,7 +9,7 @@ cd "$(dirname "$0")"
 APP_NAME="${APP_NAME:-fruitapi-dlux}"
 RESOURCE_GROUP="${RESOURCE_GROUP:-fruitapi-rg}"
 PLAN_NAME="${PLAN_NAME:-fruitapi-plan}"
-LOCATION="${LOCATION:-westus2}"
+LOCATION="${LOCATION:-uksouth}"
 SKU="${SKU:-F1}"  # Use B1 for production
 
 echo "Deploying FruitAPI to Azure..."
